@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.tvos.deployment_target = '9.0'
   s.framework    = 'QuartzCore'
-  s.source_files = 'IHProgressHUD/Classes/**/*.swift'
-  s.resources = 'IHProgressHUD/Classes/IHProgressHUD.bundle'
+  s.source_files = 'Sources/IHProgressHUD/**/*.swift'
+  s.resources = 'Sources/IHProgressHUD/IHProgressHUD.bundle'
   s.requires_arc = true
   
 end
